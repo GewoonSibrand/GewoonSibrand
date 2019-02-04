@@ -1,0 +1,18 @@
+.homepage .col-md-4 .btn { width: 100%; transition: 0.3s ease all;  font-weight: bold;}
+.homepage .col-md-4:first-child .btn { background-color: #000; color: #fff; }
+.homepage .col-md-4:nth-child(2) .btn { background-color: #25292f; color: #fff; }
+.homepage .col-md-4:nth-child(3) .btn { background-image: linear-gradient( 292.9deg,  rgba(27,13,45,1) 21.2%, rgba(120,64,96,1) 92.1% ); color: #fff; }
+.homepage .col-md-4 .btn:hover {
+	background-color: #fff;
+	background-size: 40px;
+	background-repeat: no-repeat;
+	background-position: center;
+	border: 2px solid #000;
+	font-size: 0;
+	min-height: 50px;
+}
+.homepage .col-md-4:first-child .btn:hover { background-image: url("../imgs/codepenicon.png"); }
+.homepage .col-md-4:nth-child(2) .btn:hover { background-image: url("../imgs/githubicon.png"); 	border: 2px solid #25292f; }
+.homepage .col-md-4:nth-child(3) .btn:hover { background-image: url("../imgs/githubicon.png"); 	border: 2px solid rgba(120,64,96,1); }
+
+.homepage .col-md-4 figure img { border-radius: 5px; }
