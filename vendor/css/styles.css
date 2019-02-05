@@ -134,7 +134,7 @@ img.brain {
 	background-color: #666;
 	position: fixed;
 	z-index: 999;
-	bottom: -100%;
+	top: -100%;
 }
 @media only screen and (min-width: 768px){
     .dude {
