@@ -1,11 +1,91 @@
 
 /*++ Homepage ++*/
 
-.homepage .section_row_main video { width: 100%; }
-.homepage .section_row_main .btn { width: 100%; transition: 0.3s ease all;  font-weight: bold;}
-.homepage .section_row_main:first-child .btn { background-color: #000; color: #fff; }
-.homepage .section_row_main:nth-child(2) .btn { background-color: #25292f; color: #fff; }
-.homepage .section_row_main .btn:hover {
+/*++ Section Row Main ++*/
+body.stop-scrolling {
+    height: 100%;
+    overflow: hidden;
+}
+
+.section {
+	overflow-y: hidden;
+}
+.container-fluid {
+	padding: 0;
+	overflow: hidden;
+}
+.full-height{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+.title-main{
+    z-index: 5;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.top-titles{
+    text-transform: uppercase;
+    font-size: 11px;
+    letter-spacing: 1px;
+    text-align: center; 
+}
+
+.bg-image {
+	position: fixed;
+	background: url("../imgs/main-bg-home3.jpg");
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    width: 100%;
+    height: 100%;
+}
+
+.dude {
+    z-index: 3;
+    position: fixed; 
+    bottom: 0px;
+    left: -80%;
+    width: 130%;
+}
+
+.dude img{
+    max-width: 100%;
+}
+.s-inner{
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.scroll-line{
+    height: 80px;
+    border-left: #333 dashed 1px;
+    position: relative;
+    left: 50%;
+}
+
+.scroll-line h6{
+    position: relative; 
+    display: inline-block;
+    transform: translateX(-50%) rotate(90deg);
+    top: 90px; 
+}
+
+img.brain {
+    width: 150px;
+}
+
+/*++ Section Row 1 ++*/
+.homepage .section2 video { width: 100%; }
+.homepage .section2 .btn { width: 100%; transition: 0.3s ease all;  font-weight: bold;}
+.homepage .section2 .col-md-6:first-child .btn { background-color: #000; color: #fff; }
+.homepage .section2 .col-md-6:nth-child(2) .btn { background-color: #25292f; color: #fff; }
+.homepage .section2 .col-md-6 .btn:hover {
 	background-color: #fff;
 	background-size: 40px;
 	background-repeat: no-repeat;
@@ -14,6 +94,16 @@
 	font-size: 0;
 	min-height: 50px;
 }
-.homepage .section_row_main:first-child .btn:hover { background-image: url("../imgs/codepenicon.png"); }
-.homepage .section_row_main:nth-child(2) .btn:hover { background-image: url("../imgs/githubicon.png"); 	border: 2px solid #25292f; }
+.homepage .section2 .col-md-6:first-child .btn:hover { background-image: url("../imgs/codepenicon.png"); }
+.homepage .section2 .col-md-6:nth-child(2) .btn:hover { 
+	background-image: url("../imgs/githubicon.png"); 	
+	border: 2px solid #25292f; 
+}
 
+@media only screen and (min-width: 768px){
+    .dude {
+        width: 50%;
+        bottom: -20px;
+        left: 0;
+    }
+}
