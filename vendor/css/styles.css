@@ -81,6 +81,26 @@ img.brain {
 }
 
 /*++ Section Row 1 ++*/
+.homepage .section2 {
+	background-image: url("../imgs/undraw_post_online_dkuk.svg");
+	background-repeat: no-repeat;
+	background-position: bottom right;
+	background-size: 15%;
+	overflow: hidden;
+}
+.homepage .section2::before {
+	content: "";
+	background-image: url("../imgs/undraw_usability_testing_2xs4.svg");
+	background-repeat: no-repeat;
+	background-position: bottom left;
+	background-size: 15%;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 20px;
+	top: 0px;
+}
+
 .homepage .section2 video { width: 100%; }
 .homepage .section2 .btn { width: 100%; transition: 0.3s ease all;  font-weight: bold;}
 .homepage .section2 .col-md-6:first-child .btn { background-color: #000; color: #fff; }
