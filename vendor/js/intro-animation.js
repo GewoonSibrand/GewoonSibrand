@@ -8,7 +8,7 @@ function introAnimation() {
         $('.stop-scrolling').removeClass('stop-scrolling');
     },2500);
 
-    console.log("INTRO RELOADED");
+    console.log("INTRO RELOADED")
     var bgImage =$(".bg-image"), 
         dude =$(".dude"), 
         scrollLine =$(".scroll-line"), 
