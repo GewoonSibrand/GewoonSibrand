@@ -1,9 +1,14 @@
 jQuery(document).ready(function($) {
+   introAnimation();
+ });
+ 
+function introAnimation() {
     $(this).scrollTop(0);
     setTimeout(function() {
         $('.stop-scrolling').removeClass('stop-scrolling');
     },2500);
 
+    console.log("INTRO RELOADED");
     var bgImage =$(".bg-image"), 
         dude =$(".dude"), 
         scrollLine =$(".scroll-line"), 
@@ -11,7 +16,7 @@ jQuery(document).ready(function($) {
         titleMain =$(".title-main")
     
     // Animate in
-    console.log("intro animation is loaded")
+    
     var tlLoader = new TimelineMax();
      tlLoader
      .from(titleMain, 2,{autoAlpha:0})
@@ -60,6 +65,4 @@ jQuery(document).ready(function($) {
  .setPin('.section2')
  .addTo(controller);
  
- });
- 
- 
+} 
