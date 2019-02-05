@@ -44,7 +44,7 @@ var FadeTransition = Barba.BaseTransition.extend({
          */
   
         _this.done();
-    
+        introAnimation();
       });
     }
   });
@@ -61,5 +61,5 @@ var FadeTransition = Barba.BaseTransition.extend({
   
     return FadeTransition;
   };
-
+  
   Barba.Pjax.start();
