@@ -11,7 +11,7 @@ jQuery(document).ready(function($) {
         titleMain =$(".title-main")
     
     // Animate in
-    
+    console.log("intro animation is loaded")
     var tlLoader = new TimelineMax();
      tlLoader
      .from(titleMain, 2,{autoAlpha:0})
