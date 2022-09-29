@@ -1,36 +1,26 @@
 {
-    "title": "Bare",
-    "name": "startbootstrap-bare",
-    "version": "4.1.4",
-    "description": "A basic HTML starter template for Bootstrap",
-    "keywords": [
-        "css",
-        "sass",
-        "html",
-        "responsive",
-        "theme",
-        "template"
-    ],
-    "homepage": "https://startbootstrap.com/template-overviews/bare",
-    "bugs": {
-        "url": "https://github.com/BlackrockDigital/startbootstrap-bare/issues",
-        "email": "feedback@startbootstrap.com"
-    },
-    "license": "MIT",
-    "author": "Start Bootstrap",
-    "contributors": [
-        "David Miller (http://davidmiller.io/)"
-    ],
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/BlackrockDigital/startbootstrap-bare.git"
-    },
-    "dependencies": {
-        "bootstrap": "4.2.1",
-        "jquery": "3.3.1"
-    },
-    "devDependencies": {
-        "browser-sync": "2.26.3",
-        "gulp": "4.0.0"
-    }
+  "name": "mystats",
+  "version": "1.0.0",
+  "description": "GewoonSibrand Readme",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "mystats-images": "node bin/index.js images"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GewoonSibrand/GewoonSibrand.git"
+  },
+  "author": "Hendrik Prinsloo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GewoonSibrand/GewoonSibrand/issues"
+  },
+  "homepage": "https://github.com/GewoonSibrand/GewoonSibrand#readme",
+  "dependencies": {
+    "@codersrank/skills-chart": "^0.9.21",
+    "commander": "^9.3.0",
+    "image-downloader": "^4.3.0",
+    "text-to-svg": "^3.1.5"
+  }
 }
