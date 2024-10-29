@@ -30,7 +30,6 @@ See [here](https://profile.codersrank.io/user/GewoonSibrand)
 <p align="left">
     <a href="https://twitter.com/gewoonsibrand" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="gewoonsibrand" height="30" width="40" /></a>
     <a href="https://www.linkedin.com/in/gewoonsibrand/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="gewoonsibrand" height="30" width="40" /></a>
-    <a href="https://stackoverflow.com/users/7403334" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/stack-overflow.svg" alt="7403334" height="30" width="40" /></a>
     <a href="https://www.instagram.com/sibrand_miniatures/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="sibrand_miniatures/" height="30" width="40" /></a>
     <a href="https://medium.com/@gewoonsibrand" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/medium.svg" alt="@gewoonsibrand" height="30" width="40" /></a>
 </p>
